@@ -1,7 +1,9 @@
 .idea/
 __pycache__/
 .ipynb_checkpoints/
+OID/
 
 /datasets
 /runs
 .pt
+*.zip

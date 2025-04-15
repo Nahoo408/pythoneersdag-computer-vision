@@ -57,10 +57,10 @@ def rgb_to_grayscale(image: NDArray) -> NDArray:
 
 
 def draw_rectangle(
-        image: NDArray,
-        rectangle: tuple[int, int, int, int],
-        colour: tuple[int, int, int] = (255, 0, 0),
-        line_width: int = 2,
+    image: NDArray,
+    rectangle: tuple[int, int, int, int],
+    colour: tuple[int, int, int] = (255, 0, 0),
+    line_width: int = 2,
 ) -> None:
     """Draw given rectangle on given image.
 

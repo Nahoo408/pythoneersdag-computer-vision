@@ -1,0 +1,24 @@
+[project]
+name = "download-images"
+version = "0.1.0"
+description = "toml file for downloading a subset of images"
+authors = [
+    {name = "Nathan Hoogendorp", email = "nathan.hoogendorp@soprasteria.com"},
+    {name = "Wim-Peter Dirks", email = "wim-peter.dirks@soprasteria.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy (>=1.23.0,<=2.1.1)",
+    "pandas (>=2.2.3,<3.0.0)",
+    "awscli (>=1.38.34,<2.0.0)",
+    "urllib3 (>=2.4.0,<3.0.0)",
+    "tqdm (>=4.67.1,<5.0.0)",
+]
+
+[tool.poetry]
+package-mode = false
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

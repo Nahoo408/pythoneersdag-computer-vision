@@ -37,6 +37,7 @@ def show_img_inline(image: NDArray, title: str = "", cmap=None) -> None:
         title (str, optional): Title for the image. Defaults to "".
         cmap (str, optional): Colormap to use for grayscale. Defaults to None.
     """
+    plt.figure(figsize=(6, 6))
     plt.imshow(cv2.cvtColor(image, cv2.COLOR_BGR2RGB), cmap=cmap)
     plt.title(title)
     plt.axis("off")

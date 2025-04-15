@@ -5,5 +5,5 @@ OID/
 
 /datasets
 /runs
-.pt
+*.pt
 *.zip

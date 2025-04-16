@@ -101,6 +101,16 @@ def draw_rectangle_xyxy(
     cv2.rectangle(img_copy, (x1, y1), (x2, y2), colour, line_width)
     return img_copy
 
+def nothing(x: int) -> None:
+    """
+    Dummy callback function used for OpenCV trackbars.
+
+    Args:
+        x (int): The current value of the trackbar (automatically passed by OpenCV).
+
+    This function does nothing and is typically used as a placeholder when a callback is required.
+    """
+    pass
 
 def xyxy_to_xywh(x1: int, y1: int, x2: int, y2: int) -> tuple[int, int, int, int]:
     """

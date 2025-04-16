@@ -1,9 +1,30 @@
+# -------------------------------
+# 🛠️  Project configuration files
+# -------------------------------
 .idea/
-__pycache__/
 .ipynb_checkpoints/
-OID/
 
-/datasets
-/runs
+# -------------------------------
+# 🐍  Python cache files
+# -------------------------------
+__pycache__/
+
+# -------------------------------
+# 📁  Directories to ignore
+# -------------------------------
+OID/
+datasets/
+runs/
+
+# -------------------------------
+# 📦  File types to ignore
+# -------------------------------
 *.pt
 *.zip
+
+# -------------------------------
+# ✅  Exceptions (tracked files)
+# -------------------------------
+!data/3_neural_networks/pre-trained-classifier/weights/best.pt
+!data/3_neural_networks/pre-trained-classifier/weights/last.pt
+!yolo11n.pt

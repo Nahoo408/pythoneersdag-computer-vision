@@ -3,6 +3,7 @@
 # -------------------------------
 .idea/
 .ipynb_checkpoints/
+**/.DS_Store
 
 # -------------------------------
 # 🐍  Python cache files
